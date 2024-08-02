@@ -23,15 +23,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.工具箱/3.Routing/Test_9.0008-TcEscape计算结果导入对应PCB板进行校验.md",
+                "file": "z-读书笔记/B015-仙逆.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +88,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.工具箱/3.Routing/Test_9.0008-TcEscape计算结果导入对应PCB板进行校验.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +104,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.工具箱/3.Routing/Test_9.0008-TcEscape计算结果导入对应PCB板进行校验.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,9 +137,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.工具箱/3.Routing/Test_9.0008-TcEscape计算结果导入对应PCB板进行校验.md"
-              }
+              "state": {}
             }
           },
           {
@@ -150,9 +145,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "2.工具箱/3.Routing/Test_9.0008-TcEscape计算结果导入对应PCB板进行校验.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -164,7 +157,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "remotely-save:Remotely Save": false,
       "switcher:打开快速切换": false,
       "command-palette:打开命令面板": false,
       "canvas:新建白板": false,
@@ -174,8 +166,24 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "261d7bf83393fb26",
+  "active": "51d2141a16971c3a",
   "lastOpenFiles": [
+    "z-读书笔记/B015-仙逆.md",
+    "z-读书笔记/B014-紫川.md",
+    "z-读书笔记/B013-诛仙.md",
+    "z-读书笔记/B012-绝世唐门（斗罗大陆2）.md",
+    "z-读书笔记/B011-斗破苍穹.md",
+    "z-读书笔记/B010-斗罗大陆.md",
+    "z-读书笔记/B009-我的26岁女房客.md",
+    "z-读书笔记/B008-吞噬星空.md",
+    "z-读书笔记/B007-苍元图.md",
+    "z-读书笔记/B005-老子是癞蛤蟆.md",
+    "z-读书笔记/B006-selenium4自动化项目测试实战.md",
+    "z-读书笔记/B004-陈二狗的妖孽人生.md",
+    "z-读书笔记/B003-学会提问.md",
+    "z-读书笔记/B002-庆余年.md",
+    "z-读书笔记/B001-雪中悍刀行.md",
+    "z-读书笔记",
     "2.工具箱/3.Routing/Test_9.0002.1-BgaEscape选择pitch值后，其他输入框自动匹配对应值.md",
     "1.PCB设计中心/2.CIS库/Test_7.0001-所有成员可以查看CIS库信息，点击查看按钮可以进入查看页面，只有CIS管理员可以创建，导入，编辑CIS库.md",
     "1.PCB设计中心/1.PE/Test_1.0125-更改项目状态：谁（用户）将什么项目（项目编号）的状态修改为（项目状态名称）.md",
@@ -187,13 +195,7 @@
     "Worknote/Allegro/Command导入skill.md",
     "Worknote/评论.md",
     "Worknote/接口请求数据获取.md",
-    "Worknote/关于git命令.md",
-    "Worknote/关于Docker命令.md",
-    "Worknote/User&Passwd.md",
-    "Worknote/skill.md",
     "Worknote/PCB",
-    "Worknote/p90，p95，p99计算方式.md",
-    "Worknote/Eas-Rpc测试环境部署流程.md",
     "Worknote/Allegro",
     "Worknote",
     "9.脚本/view-seasons.js",
@@ -202,16 +204,6 @@
     "9.脚本/push.sh",
     "9.脚本/Highlight.sh",
     "9.脚本/genarate-season.js",
-    "9.脚本/deploy.sh",
-    "8.模板/2.记录模板.md",
-    "8.模板/1.用例模板.md",
-    "2.工具箱/3.Routing/Test_9.0016-BgaEscape用户手动拉线后，同net的pin或via不再出线.md",
-    "2.工具箱/3.Routing/Test_9.0015-重复发送错误请求时，只弹出一个提示框.md",
-    "2.工具箱/3.Routing/Test_9.0014-Tc、FreeConnect后端校验.md",
-    "2.工具箱/3.Routing/Test_9.0013-Tcescape、Freeconnect配置文件前端校验.md",
-    "2.工具箱/3.Routing/Test_9.0012-FreeConnect支持指定连接Reference，同时分配多个Reference时算法自行匹配.md",
-    "2.工具箱/3.Routing/Test_9.0011-FreeConnect支持多Site连接，并兼容单Site连接.md",
-    "2.工具箱/3.Routing/Test_9.0010-FreeConnect计算结果导入对应PCB板进行校验.md",
     "7.附件/屏幕截图_2024-05-21_111715.png",
     "7.附件/屏幕截图_2024-05-20_175458.png",
     "7.附件/Pasted image 20240730105654.png",
