@@ -1,0 +1,20 @@
+{
+  "spellcheck": false,
+  "readableLineLength": false,
+  "defaultViewMode": "source",
+  "showFrontmatter": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showInlineTitle": false,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true,
+  "promptDelete": false,
+  "autoPairBrackets": false,
+  "livePreview": true,
+  "attachmentFolderPath": "7.附件",
+  "showLineNumber": true,
+  "rightToLeft": false,
+  "vimMode": false
+}

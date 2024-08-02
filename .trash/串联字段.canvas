@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"9a06b98ebc97bfd9","type":"text","text":"**CIS库页面-添加器件**\n\n==spechopartid==\n\n==制造商零件编号==\n","x":-1120,"y":-740,"width":220,"height":160,"color":"4"},
+		{"id":"a1b73b7210e9ca50","type":"text","text":"**pe-bom页面-上传bom** \n\n==spechopartid== \n\n==项目编号== ","x":-833,"y":-740,"width":220,"height":160,"color":"4"},
+		{"id":"b5e9c7e87cde41a7","type":"text","text":"**仓库-创建出入库单页面** \n\n==物料编号== \n\n==制造商零件编号== \n\n","x":-540,"y":-740,"width":220,"height":160,"color":"5"},
+		{"id":"da44caa0960e639b","type":"text","text":"**仓库-出入库清单页面** \n\n==出入库单号== \n\n","x":-843,"y":-480,"width":230,"height":160,"color":"5"},
+		{"id":"e8621fc04ee5d627","type":"text","text":"**仓库-创建物料页面** \n\n==spechopartid== \n\n==制造商零件编号== ","x":-550,"y":-480,"width":230,"height":160,"color":"5"},
+		{"id":"bfe1d29267c1073c","type":"text","text":"**仓库-流转单页面** \n\n==项目编号== \n\n==流转单号== \n","x":-265,"y":-740,"width":220,"height":160,"color":"5"},
+		{"id":"158add5857dd727f","type":"text","text":"**仓库-流转单编辑页面** \n\n==流转单号== \n\n==出入库单号== \n\n==物料编号== \n\n==制造商零件编号== ","x":-265,"y":-480,"width":230,"height":240,"color":"5"},
+		{"id":"b4f48fe0c2760a17","type":"text","text":"**采购-创建物料采购页面** \n\n==物料编号== \n\n==制造商零件编号== \n\n","x":-1120,"y":20,"width":230,"height":160,"color":"6"},
+		{"id":"fe3d74a5a6e5ad60","type":"text","text":"**采购-项目采购页面** \n\n==项目编号== ","x":-828,"y":20,"width":250,"height":160,"color":"6"},
+		{"id":"da3527fc34a96c65","type":"text","text":"**采购-采购清单页面** \n\n==采购单号== ","x":-1120,"y":-190,"width":230,"height":160,"color":"6"},
+		{"id":"a842c8bb342bdcaf","type":"text","text":"**仓库-物料清单页面** \n\n==物料编号== \n\n==制造商零件编号== \n\n\n","x":-1120,"y":-480,"width":230,"height":160,"color":"5"},
+		{"id":"0615f6bd4503ff7c","type":"text","text":"**采购-物料采购页面** \n\n==物料编号== \n\n==制造商零件编号== \n","x":-515,"y":-190,"width":220,"height":160,"color":"6"},
+		{"id":"6373411145fb7880","type":"text","text":"**采购-采购清单编辑页面** \n\n==采购单号== \n\n==物料编号== \n\n==制造商零件编号== ","x":-828,"y":-200,"width":250,"height":180,"color":"6"},
+		{"id":"6e995efdc9f35ab7","type":"text","text":"**采购-创建项目采购页面** \n\n==项目编号== \n\n","x":-515,"y":20,"width":220,"height":160,"color":"6"}
+	],
+	"edges":[]
+}

@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"a7504bfa242b114a","type":"text","text":"只减少除该物料所属仓库的物料数量","x":-80,"y":-123,"width":250,"height":60},
+		{"id":"c40bfe8be0d58e95","type":"text","text":"作废入库单会减少数量、作废出库单会增加数量、作用域只限于选择的单据","x":-80,"y":40,"width":250,"height":85},
+		{"id":"f46cf00b5397c170","type":"text","text":"作废出入库单","x":-440,"y":58,"width":250,"height":50},
+		{"id":"d2fc8a8c7d072d80","type":"text","text":"上海+武汉的库存总数量","x":-80,"y":-284,"width":250,"height":60},
+		{"id":"d3fed4dc625286b2","type":"text","text":"创建出入库单","x":-440,"y":-279,"width":250,"height":50},
+		{"id":"23517c93ae6cb0d2","x":-80,"y":-183,"width":250,"height":60,"type":"text","text":"重新创建被删除的物料"},
+		{"id":"7092297bb41f6646","type":"text","text":"删除物料","x":-440,"y":-146,"width":250,"height":53}
+	],
+	"edges":[
+		{"id":"ecf06c4010aed804","fromNode":"d3fed4dc625286b2","fromSide":"right","toNode":"d2fc8a8c7d072d80","toSide":"left"},
+		{"id":"cde101633a1b87a6","fromNode":"7092297bb41f6646","fromSide":"right","toNode":"a7504bfa242b114a","toSide":"left"},
+		{"id":"d51e0324b2467183","fromNode":"f46cf00b5397c170","fromSide":"right","toNode":"c40bfe8be0d58e95","toSide":"left"},
+		{"id":"a7eb4955ec472cbb","fromNode":"7092297bb41f6646","fromSide":"bottom","toNode":"f46cf00b5397c170","toSide":"top","label":"删除物料后作废出入库单"},
+		{"id":"a9fffe5116ad247b","fromNode":"7092297bb41f6646","fromSide":"right","toNode":"23517c93ae6cb0d2","toSide":"left"}
+	]
+}

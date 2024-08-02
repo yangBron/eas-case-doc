@@ -1,0 +1,387 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "data": {}
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "5.待办",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "groupByField": "status",
+            "includeFields": [
+              "due",
+              "tags",
+              "data"
+            ],
+            "columns": {
+              "backlog": {
+                "weight": 0
+              },
+              "doing": {
+                "weight": 1
+              },
+              "done": {
+                "weight": 2
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#f00000",
+                "condition": {
+                  "field": "data",
+                  "operator": "is-not-empty",
+                  "enabled": false
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "due",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "1e369f7e-3a34-48c1-8570-5ca9dfb20d68",
+          "name": "待办状态看板",
+          "type": "board"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              }
+            },
+            "orderFields": [
+              "name",
+              "tags",
+              "data",
+              "due",
+              "status"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "af1c8fca-8430-4493-bab9-f49cb2e7f09a",
+          "name": "待办表格",
+          "type": "table"
+        }
+      ],
+      "id": "b71b03e3-5896-45a0-bea2-ec153e88ff8c",
+      "name": "待办看板"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "1.PCB设计中心/1.PE",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "name": {
+                "width": 470
+              }
+            },
+            "orderFields": [
+              "name",
+              "S25",
+              "S24",
+              "S23",
+              "S22",
+              "S14",
+              "S13",
+              "S12",
+              "S11",
+              "S10",
+              "S9"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "name",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "da914705-3c6f-43e7-9cb7-2624984d4347",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "2d8f0b9d-dd89-41d0-ba38-6aa6a013bda2",
+      "name": "PE"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "1.PCB设计中心/3.仓库",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "name": {
+                "width": 452
+              }
+            },
+            "orderFields": [
+              "name",
+              "S25",
+              "S24",
+              "S23",
+              "S22",
+              "S21",
+              "S20",
+              "S19",
+              "S18",
+              "S17",
+              "S16",
+              "S15"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "name",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "e2bf9561-d51d-4535-816d-1ba0f7e58505",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "2c75f915-91a5-4abf-bd9c-1c8ea595fd0c",
+      "name": "仓库"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "1.PCB设计中心/2.CIS库",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "name": {
+                "width": 441
+              }
+            },
+            "orderFields": [
+              "name",
+              "S20",
+              "S19",
+              "S18",
+              "S17",
+              "S16",
+              "S15",
+              "S14",
+              "S13"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "name",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "562cef2c-aac2-49b9-9674-5c317546e132",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "f6371d45-ba0a-4e6c-9700-e6544a1b219a",
+      "name": "CIS库"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "2.工具箱/3.Routing",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "name": {
+                "hide": false,
+                "width": 429
+              },
+              "path": {
+                "hide": true
+              }
+            },
+            "orderFields": [
+              "name",
+              "S7",
+              "S6.5",
+              "S6",
+              "S5",
+              "S4",
+              "S3",
+              "S2",
+              "S1",
+              "S0"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "name",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "d8b8f6ce-319d-41a0-bada-0434254faa31",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "08888b95-6589-4b55-937c-8def297a6d62",
+      "name": "Routing"
+    }
+  ],
+  "preferences": {
+    "projectSizeLimit": 2000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [
+      {
+        "project": "51a3916b-aa09-4c74-8598-a8d180cd7c9a"
+      },
+      {
+        "project": "30201471-9d62-4a91-a836-d1850c3c229a"
+      },
+      {
+        "project": "2be68771-3348-43bc-92ed-e4bd758ef2ab",
+        "view": "b6fba2d1-548e-434c-bf32-5a656d46adce"
+      },
+      {
+        "project": "2be68771-3348-43bc-92ed-e4bd758ef2ab",
+        "view": "028cd8cb-6a8b-412a-a734-fdd971b03263"
+      },
+      {
+        "project": "2be68771-3348-43bc-92ed-e4bd758ef2ab",
+        "view": "637e2712-895e-4c92-af71-fb39053ef2e8"
+      },
+      {
+        "project": "2be68771-3348-43bc-92ed-e4bd758ef2ab",
+        "view": "3a230215-72c5-4836-9b40-029a87171a5c"
+      },
+      {
+        "project": "2be68771-3348-43bc-92ed-e4bd758ef2ab",
+        "view": "bfe201c7-09d8-4dec-92ba-2acddbc45983"
+      },
+      {
+        "project": "2be68771-3348-43bc-92ed-e4bd758ef2ab"
+      }
+    ],
+    "linkBehavior": "open-note"
+  }
+}

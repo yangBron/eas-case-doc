@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"727deaea509d8d0b","type":"text","text":"**pe-bom页面-上传bom** \n\n==spechopartid== \n\n==项目编号== ","x":-480,"y":-140,"width":220,"height":160,"color":"4"},
+		{"id":"c54898e53f806822","type":"text","text":"**仓库-创建物料页面** \n\n==spechopartid== \n\n==制造商零件编号== ","x":-480,"y":120,"width":220,"height":160,"color":"5"},
+		{"id":"475f0047736781f6","type":"text","text":"**仓库-物料清单页面** \n\n==物料编号== \n\n==制造商零件编号== \n\n\n","x":-480,"y":420,"width":220,"height":160,"color":"5"},
+		{"id":"d382dcc85ba57d89","type":"text","text":"**采购-创建项目采购页面** \n\n==项目编号== \n\n","x":-140,"y":-140,"width":220,"height":160,"color":"6"},
+		{"id":"8c1ab2f94fcaac95","type":"text","text":"**采购-项目采购页面** \n\n==项目编号== \n\n==采购单号== ","x":200,"y":-140,"width":220,"height":160,"color":"6"},
+		{"id":"9fd9de1573cc9e12","type":"text","text":"**仓库-流转单页面** \n\n==项目编号== \n\n==流转单号== \n","x":200,"y":120,"width":220,"height":160,"color":"5"},
+		{"id":"b3e0b98bf621da1c","type":"text","text":"**仓库-流转单编辑页面** \n\n==流转单号== \n\n==出入库单号== \n\n==物料编号== \n\n==制造商零件编号== ","x":200,"y":380,"width":220,"height":240,"color":"5"},
+		{"id":"ce90387e97f3bbf1","type":"text","text":"**仓库-出入库清单页面** \n\n==出入库单号== \n\n","x":200,"y":720,"width":220,"height":160,"color":"5"},
+		{"id":"91573564ed158423","type":"text","text":"**CIS库页面-添加器件**\n\n==spechopartid==\n\n==制造商零件编号==\n","x":-840,"y":-140,"width":220,"height":160,"color":"4"},
+		{"id":"52e858a2bdb55de1","type":"text","text":"**采购-物料采购页面** \n\n==物料编号== \n\n==制造商零件编号== \n","x":-140,"y":-400,"width":220,"height":160,"color":"6"},
+		{"id":"e3145e3c1b3a529c","type":"text","text":"**采购-创建物料采购页面** \n\n==物料编号== \n\n==制造商零件编号== \n\n","x":-140,"y":-660,"width":220,"height":160,"color":"6"},
+		{"id":"6b12a0980a641c83","type":"text","text":"**采购-采购清单页面** \n\n==采购单号== ","x":200,"y":-400,"width":220,"height":160,"color":"6"},
+		{"id":"75ff0b1b89579d90","type":"text","text":"**采购-采购清单编辑页面** \n\n==采购单号== \n\n==物料编号== \n\n==制造商零件编号== ","x":580,"y":-410,"width":220,"height":180,"color":"6"},
+		{"id":"97f9cb66a515bcf4","type":"text","text":"**仓库-创建出入库单页面** \n\n==物料编号== \n\n==制造商零件编号== \n\n","x":-480,"y":720,"width":220,"height":160,"color":"5"}
+	],
+	"edges":[
+		{"id":"60529956b67bf950","fromNode":"727deaea509d8d0b","fromSide":"bottom","toNode":"c54898e53f806822","toSide":"top","fromEnd":"arrow","label":"spechopartid"},
+		{"id":"43486544bf7eb380","fromNode":"c54898e53f806822","fromSide":"bottom","toNode":"475f0047736781f6","toSide":"top","fromEnd":"arrow","label":"制造商零件编号"},
+		{"id":"7e45424356a0c9d6","fromNode":"727deaea509d8d0b","fromSide":"right","toNode":"d382dcc85ba57d89","toSide":"left","fromEnd":"arrow","label":"项目编号"},
+		{"id":"0e07847eac86fa0c","fromNode":"d382dcc85ba57d89","fromSide":"right","toNode":"8c1ab2f94fcaac95","toSide":"left","fromEnd":"arrow","label":"项目编号"},
+		{"id":"d4b4c12d4e0f963b","fromNode":"8c1ab2f94fcaac95","fromSide":"top","toNode":"6b12a0980a641c83","toSide":"bottom","fromEnd":"arrow","label":"采购单号"},
+		{"id":"a2a8991e4f0bb4c5","fromNode":"8c1ab2f94fcaac95","fromSide":"bottom","toNode":"9fd9de1573cc9e12","toSide":"top","fromEnd":"arrow","label":"项目编号"},
+		{"id":"9bdd69091fae20c6","fromNode":"9fd9de1573cc9e12","fromSide":"bottom","toNode":"b3e0b98bf621da1c","toSide":"top","fromEnd":"arrow","label":"流转单号"},
+		{"id":"ddeab08f194305ff","fromNode":"b3e0b98bf621da1c","fromSide":"left","toNode":"475f0047736781f6","toSide":"right","fromEnd":"arrow","label":"物料编号"},
+		{"id":"fe8160abdbe3f320","fromNode":"d382dcc85ba57d89","fromSide":"bottom","toNode":"c54898e53f806822","toSide":"right","label":"失败，返回spechopartid"},
+		{"id":"4fc1bcdfedd13d82","fromNode":"b3e0b98bf621da1c","fromSide":"bottom","toNode":"ce90387e97f3bbf1","toSide":"top","fromEnd":"arrow","label":"出入库单号"},
+		{"id":"33b3fb7b8ad39cc9","fromNode":"727deaea509d8d0b","fromSide":"top","toNode":"91573564ed158423","toSide":"top","label":"器件不存在，返回不存在的spechopartid"},
+		{"id":"eaa52fd912b9827e","fromNode":"91573564ed158423","fromSide":"right","toNode":"727deaea509d8d0b","toSide":"left","label":"spechopartid"},
+		{"id":"b66057976e91d71a","fromNode":"52e858a2bdb55de1","fromSide":"bottom","toNode":"d382dcc85ba57d89","toSide":"top","toEnd":"none"},
+		{"id":"c8349746d67b8ae8","fromNode":"52e858a2bdb55de1","fromSide":"top","toNode":"e3145e3c1b3a529c","toSide":"bottom","label":"制造商零件编号"},
+		{"id":"3e650e390578783d","fromNode":"6b12a0980a641c83","fromSide":"right","toNode":"75ff0b1b89579d90","toSide":"left"},
+		{"id":"a21a9a51832e26d6","fromNode":"6b12a0980a641c83","fromSide":"left","toNode":"52e858a2bdb55de1","toSide":"right"},
+		{"id":"5d19fec6506b24aa","fromNode":"475f0047736781f6","fromSide":"bottom","toNode":"97f9cb66a515bcf4","toSide":"top","label":"物料编号"},
+		{"id":"a954a7ee36f8e0c9","fromNode":"ce90387e97f3bbf1","fromSide":"left","toNode":"97f9cb66a515bcf4","toSide":"right","fromEnd":"arrow"}
+	]
+}

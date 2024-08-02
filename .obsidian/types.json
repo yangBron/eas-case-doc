@@ -1,0 +1,14 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "startTime": "date",
+    "review": "checkbox",
+    "endTime": "date",
+    "S24": "text",
+    "Module": "text",
+    "Due": "date",
+    "time": "date"
+  }
+}
