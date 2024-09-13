@@ -2,5 +2,6 @@
   "snapToObjects": true,
   "snapToGrid": true,
   "cardLabelVisibility": "never",
-  "defaultWheelBehavior": "pan"
+  "defaultWheelBehavior": "pan",
+  "newFileLocation": "current"
 }

@@ -65,7 +65,7 @@ docker images
 ```
 docker serch 镜像名称
 ```
-##### 拉去(下载)镜像
+##### 拉取(下载)镜像
 ```
 docker pull 镜像明镜:tag (tag可以理解为版本号，如果想下载最新版本的可以不用写)
 ```

@@ -18,7 +18,7 @@
   "minifyHTML": true,
   "makeNamesWebStyle": false,
   "onlyExportModified": true,
-  "deleteOldFiles": true,
+  "deleteOldFiles": false,
   "addThemeToggle": true,
   "addOutline": true,
   "addFileNav": true,
@@ -47,9 +47,10 @@
   "filesToExport": [
     [
       "1.PCB设计中心",
-      "2.工具箱",
+      "2.ToolBox",
       "3.迭代用例",
-      "4.废弃用例"
+      "4.废弃用例",
+      "index.md"
     ]
   ],
   "headCodes": "",

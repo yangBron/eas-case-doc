@@ -20,7 +20,6 @@
       "views": [
         {
           "config": {
-            "groupByField": "status",
             "includeFields": [
               "due",
               "tags",
@@ -36,7 +35,8 @@
               "done": {
                 "weight": 2
               }
-            }
+            },
+            "groupByField": "status"
           },
           "filter": {
             "conditions": []
@@ -292,7 +292,7 @@
       "dataSource": {
         "kind": "folder",
         "config": {
-          "path": "2.工具箱/3.Routing",
+          "path": "2.ToolBox/3.Routing",
           "recursive": false
         }
       },
@@ -311,6 +311,7 @@
             },
             "orderFields": [
               "name",
+              "S8",
               "S7",
               "S6.5",
               "S6",
@@ -344,59 +345,6 @@
       ],
       "id": "08888b95-6589-4b55-937c-8def297a6d62",
       "name": "Routing"
-    },
-    {
-      "fieldConfig": {},
-      "defaultName": "",
-      "templates": [],
-      "excludedNotes": [],
-      "isDefault": false,
-      "dataSource": {
-        "kind": "folder",
-        "config": {
-          "path": "z-读书笔记",
-          "recursive": false
-        }
-      },
-      "newNotesFolder": "",
-      "views": [
-        {
-          "config": {
-            "orderFields": [
-              "name",
-              "作者",
-              "tags",
-              "时间",
-              "推荐指数"
-            ],
-            "fieldConfig": {
-              "path": {
-                "hide": true
-              }
-            }
-          },
-          "filter": {
-            "conditions": []
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": [
-              {
-                "field": "name",
-                "order": "asc",
-                "enabled": true
-              }
-            ]
-          },
-          "id": "a43029b2-344c-410f-818c-90bfa1b20085",
-          "name": "表格",
-          "type": "table"
-        }
-      ],
-      "id": "9939ca57-d846-44d4-9f0a-4375851ca48a",
-      "name": "Book"
     }
   ],
   "preferences": {

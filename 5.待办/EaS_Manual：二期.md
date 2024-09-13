@@ -2,6 +2,8 @@
 status: backlog
 tags:
   - manual
+data: 2024-08-12
+due: 2024-10-01
 ---
 
 # 二期目标

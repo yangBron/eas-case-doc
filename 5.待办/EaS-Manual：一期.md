@@ -1,5 +1,5 @@
 ---
-status: doing
+status: done
 tags:
   - manual
 due: 2024-08-02
@@ -13,7 +13,7 @@ data: 2024-07-01
 - [x] Routing工具完整的使用说明
 - [x] 小电容布局完整的使用说明
 - [x] 使用VitePress编写并提交至git
-- [ ] web发布 -- Tom
+- [x] web发布 -- Tom
 ---
 ### PE
 ##### 创建项目及项目列表页

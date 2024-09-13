@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "51d2141a16971c3a",
+            "id": "8ee45d949ec917b8",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -18,19 +18,46 @@
             }
           },
           {
-            "id": "a1cd9760937801c8",
+            "id": "390b2c70433bf31a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z-读书笔记/B015-仙逆.md",
+                "file": "Worknote/黑盒测试.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "195e175343b217a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.待办/PD反馈.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d026c88c48bf1ffb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Worknote/黑盒测试.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -59,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "2247",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 229.5
   },
   "right": {
     "id": "9a6814adbc9d10c9",
@@ -88,6 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Worknote/黑盒测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,6 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Worknote/黑盒测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,7 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Worknote/黑盒测试.md"
+              }
             }
           },
           {
@@ -145,7 +176,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Worknote/黑盒测试.md"
+              }
             }
           }
         ],
@@ -153,10 +186,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "remotely-save:Remotely Save": false,
       "switcher:打开快速切换": false,
       "command-palette:打开命令面板": false,
       "canvas:新建白板": false,
@@ -166,63 +200,62 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "51d2141a16971c3a",
+  "active": "d026c88c48bf1ffb",
   "lastOpenFiles": [
-    "z-读书笔记/B015-仙逆.md",
-    "z-读书笔记/B014-紫川.md",
-    "z-读书笔记/B013-诛仙.md",
-    "z-读书笔记/B012-绝世唐门（斗罗大陆2）.md",
-    "z-读书笔记/B011-斗破苍穹.md",
-    "z-读书笔记/B010-斗罗大陆.md",
-    "z-读书笔记/B009-我的26岁女房客.md",
-    "z-读书笔记/B008-吞噬星空.md",
-    "z-读书笔记/B007-苍元图.md",
-    "z-读书笔记/B005-老子是癞蛤蟆.md",
-    "z-读书笔记/B006-selenium4自动化项目测试实战.md",
-    "z-读书笔记/B004-陈二狗的妖孽人生.md",
-    "z-读书笔记/B003-学会提问.md",
-    "z-读书笔记/B002-庆余年.md",
-    "z-读书笔记/B001-雪中悍刀行.md",
-    "z-读书笔记",
-    "2.工具箱/3.Routing/Test_9.0002.1-BgaEscape选择pitch值后，其他输入框自动匹配对应值.md",
-    "1.PCB设计中心/2.CIS库/Test_7.0001-所有成员可以查看CIS库信息，点击查看按钮可以进入查看页面，只有CIS管理员可以创建，导入，编辑CIS库.md",
-    "1.PCB设计中心/1.PE/Test_1.0125-更改项目状态：谁（用户）将什么项目（项目编号）的状态修改为（项目状态名称）.md",
-    "Worknote/PCB/PCB工具箱.md",
+    "Worknote/黑盒测试方法.md",
+    "Worknote/黑盒测试.md",
+    "7.附件/Pasted image 20240913132258.png",
+    "7.附件/02f6a20034b8371414d46373a9bc2ccc.png",
+    "7.附件/Pasted image 20240913132152.png",
+    "7.附件/4ac396bf5e106ff4c5c1f418c7bea643.png",
+    "7.附件/Pasted image 20240913131503.png",
+    "7.附件/Pasted image 20240913114829.png",
+    "7.附件/Pasted image 20240913113040.png",
+    "7.附件/Pasted image 20240913112057.png",
+    "7.附件/Pasted image 20240913111546.png",
+    "7.附件/Pasted image 20240913100440.png",
+    "5.待办/PE反馈.md",
+    "5.待办/PD反馈.md",
+    "5.待办/PE-上传bom模块id不一致.md",
+    "5.待办/EaS-Manual：一期.md",
+    "5.待办/用例整理及分享.md",
+    "5.待办/EaS_Manual：二期.md",
+    "5.待办/2024-7-1待办任务.md",
+    "5.待办/ToolBox反馈.md",
+    "index.md",
+    "7.附件/项目概况.canvas",
+    "Worknote/PCB/PCB工具箱测试点.md",
     "Worknote/PCB/PCB字典.md",
-    "Worknote/Allegro/添加、删除层.md",
+    "Worknote/PCB/未命名.canvas",
+    "Worknote/关于git命令.md",
+    "Worknote/接口请求数据获取.md",
+    "Worknote/Eas-Rpc测试环境部署流程.md",
+    "Worknote/p90，p95，p99计算方式.md",
+    "Worknote/架构需求.canvas",
+    "Worknote/管理等级.canvas",
+    "Worknote/PCB设计中心树状图.canvas",
     "Worknote/Allegro/取消symbols的fixed状态.md",
     "Worknote/Allegro/修改每层symbol的颜色.md",
+    "Worknote/Allegro/添加、删除层.md",
     "Worknote/Allegro/Command导入skill.md",
-    "Worknote/评论.md",
-    "Worknote/接口请求数据获取.md",
+    "8.模板/1.用例模板.md",
+    "8.模板/2.记录模板.md",
+    "Worknote/skill.md",
+    "5.待办/绘图工具--Seas.md",
+    "2.ToolBox/Routing-New",
+    "5.待办/项目概况.canvas",
+    "未命名",
+    "9.脚本/package.json",
+    "9.脚本/index.html",
+    "z-读书笔记",
     "Worknote/PCB",
     "Worknote/Allegro",
     "Worknote",
     "9.脚本/view-seasons.js",
     "9.脚本/view-cases.js",
-    "9.脚本/rename.py",
-    "9.脚本/push.sh",
-    "9.脚本/Highlight.sh",
-    "9.脚本/genarate-season.js",
-    "7.附件/屏幕截图_2024-05-21_111715.png",
-    "7.附件/屏幕截图_2024-05-20_175458.png",
-    "7.附件/Pasted image 20240730105654.png",
-    "7.附件/Pasted image 20240730100925.png",
-    "7.附件/Pasted image 20240730100757.png",
-    "7.附件/Pasted image 20240703164415.png",
-    "7.附件/Pasted image 20240703164358.png",
-    "7.附件/Pasted image 20240703164408.png",
-    "7.附件/Pasted image 20240703164346.png",
-    "7.附件/Pasted image 20240703164339.png",
     "未命名.canvas",
     "3.用例记录/流程图整理.canvas",
     "3.用例记录/串联字段.canvas",
-    "3.用例记录/未命名.canvas",
-    "1.用例/9.工具箱/工具箱连线.canvas",
-    "3.用例记录/未命名 1.canvas",
-    "10.流程图/仓库.canvas",
-    "10.流程图/PE.canvas",
-    "10.流程图/影响CIS库器件数量的因素.canvas",
-    "10.流程图/CIS库.canvas"
+    "3.用例记录/未命名.canvas"
   ]
 }

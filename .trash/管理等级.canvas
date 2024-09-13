@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"869f9afa75657327","type":"text","text":"工具箱管理员","x":160,"y":200,"width":140,"height":60},
+		{"id":"bf8215212b2d1dc4","type":"text","text":"读权","x":360,"y":82,"width":125,"height":60},
+		{"id":"301945caa2dc323c","type":"text","text":"写权","x":360,"y":170,"width":125,"height":60},
+		{"id":"2688edb185624283","type":"text","text":"读权","x":360,"y":230,"width":125,"height":60},
+		{"id":"ff95885653733fe8","type":"text","text":"CIS管理员","x":160,"y":52,"width":140,"height":60},
+		{"id":"066fb7c9c474c9ce","type":"text","text":"PD管理员","x":160,"y":-98,"width":140,"height":60},
+		{"id":"9e42f2e2b0188ddd","type":"text","text":"PE管理员","x":160,"y":-250,"width":140,"height":60},
+		{"id":"178122595ee75cc0","type":"text","text":"项目管理","x":360,"y":-280,"width":125,"height":60},
+		{"id":"ac3869defb96189f","type":"text","text":"工程师","x":360,"y":-220,"width":125,"height":60},
+		{"id":"4d19b6f58a272913","type":"text","text":"写权","x":360,"y":22,"width":125,"height":60},
+		{"id":"ba2467287dd0e0b0","type":"text","text":"写权","x":360,"y":-128,"width":125,"height":60},
+		{"id":"047177963605b4f7","type":"text","text":"读权","x":360,"y":-68,"width":125,"height":60},
+		{"id":"33518c2823e32772","type":"text","text":"超级管理员","x":-100,"y":-38,"width":140,"height":60}
+	],
+	"edges":[
+		{"id":"6a81560d5a290b15","fromNode":"33518c2823e32772","fromSide":"right","toNode":"9e42f2e2b0188ddd","toSide":"left"},
+		{"id":"d560b28ac3fe680f","fromNode":"33518c2823e32772","fromSide":"right","toNode":"066fb7c9c474c9ce","toSide":"left"},
+		{"id":"e5e2098517b7d765","fromNode":"33518c2823e32772","fromSide":"right","toNode":"ff95885653733fe8","toSide":"left"},
+		{"id":"45b866e2a07b09d4","fromNode":"33518c2823e32772","fromSide":"right","toNode":"869f9afa75657327","toSide":"left"},
+		{"id":"ce072bd954c82fb7","fromNode":"9e42f2e2b0188ddd","fromSide":"right","toNode":"178122595ee75cc0","toSide":"left"},
+		{"id":"cfe83a3b9b3f2850","fromNode":"9e42f2e2b0188ddd","fromSide":"right","toNode":"ac3869defb96189f","toSide":"left"},
+		{"id":"beb2727e17559edd","fromNode":"066fb7c9c474c9ce","fromSide":"right","toNode":"ba2467287dd0e0b0","toSide":"left"},
+		{"id":"bb9a31cf3e8f4082","fromNode":"066fb7c9c474c9ce","fromSide":"right","toNode":"047177963605b4f7","toSide":"left"},
+		{"id":"36386ed886dff4f6","fromNode":"ff95885653733fe8","fromSide":"right","toNode":"4d19b6f58a272913","toSide":"left"},
+		{"id":"40816e0f748c5faf","fromNode":"ff95885653733fe8","fromSide":"right","toNode":"bf8215212b2d1dc4","toSide":"left"},
+		{"id":"75834d8f514fb937","fromNode":"869f9afa75657327","fromSide":"right","toNode":"301945caa2dc323c","toSide":"left"},
+		{"id":"950cc0aacaf978da","fromNode":"869f9afa75657327","fromSide":"right","toNode":"2688edb185624283","toSide":"left"}
+	]
+}

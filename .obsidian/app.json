@@ -16,5 +16,7 @@
   "attachmentFolderPath": "7.附件",
   "showLineNumber": true,
   "rightToLeft": false,
-  "vimMode": false
+  "vimMode": false,
+  "showIndentGuide": true,
+  "strictLineBreaks": false
 }
