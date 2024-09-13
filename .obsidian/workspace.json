@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8ee45d949ec917b8",
+            "id": "438919e141569d3f",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "390b2c70433bf31a",
+            "id": "d026c88c48bf1ffb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Worknote/黑盒测试.md",
+                "file": "5.待办/PD反馈.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,21 +36,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.待办/PD反馈.md",
-                "mode": "preview",
+                "file": "5.待办/用例整理及分享.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "d026c88c48bf1ffb",
+            "id": "b01ffe6a2f4c1aa8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Worknote/黑盒测试.md",
-                "mode": "preview",
+                "file": "2.ToolBox/3.Routing/TCRT_0016-BgaEscape用户手动拉线后，同net的pin或via不再出线.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Worknote/黑盒测试.md",
+                "file": "2.ToolBox/3.Routing/TCRT_0016-BgaEscape用户手动拉线后，同net的pin或via不再出线.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Worknote/黑盒测试.md",
+                "file": "2.ToolBox/3.Routing/TCRT_0016-BgaEscape用户手动拉线后，同net的pin或via不再出线.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Worknote/黑盒测试.md"
+                "file": "2.ToolBox/3.Routing/TCRT_0016-BgaEscape用户手动拉线后，同net的pin或via不再出线.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Worknote/黑盒测试.md"
+                "file": "2.ToolBox/3.Routing/TCRT_0016-BgaEscape用户手动拉线后，同net的pin或via不再出线.md"
               }
             }
           }
@@ -200,10 +200,34 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "d026c88c48bf1ffb",
+  "active": "b01ffe6a2f4c1aa8",
   "lastOpenFiles": [
-    "Worknote/黑盒测试方法.md",
-    "Worknote/黑盒测试.md",
+    "2.ToolBox/3.Routing/TCRT_0015-重复发送错误请求时，只弹出一个提示框.md",
+    "2.ToolBox/3.Routing/TCRT_0014-Tc、FreeConnect后端校验.md",
+    "2.ToolBox/3.Routing/TCRT_0013-Tcescape、Freeconnect配置文件前端校验.md",
+    "2.ToolBox/3.Routing/TCRT_0012-FreeConnect支持指定连接Reference，同时分配多个Reference时算法自行匹配.md",
+    "2.ToolBox/3.Routing/TCRT_0011-FreeConnect支持多Site连接，并兼容单Site连接.md",
+    "2.ToolBox/3.Routing/TCRT_0010-FreeConnect计算结果导入对应PCB板进行校验.md",
+    "2.ToolBox/3.Routing/TCRT_0009-NetConnect计算结果导入对应PCB板进行校验.md",
+    "2.ToolBox/3.Routing/TCRT_0008-TcEscape计算结果导入对应PCB板进行校验.md",
+    "2.ToolBox/3.Routing/TCRT_0007-BgaEscape计算结果导入对应PCB板进行校验.md",
+    "2.ToolBox/3.Routing/TCRT_0006-Bga环境数据文件内容前置校验.md",
+    "2.ToolBox/3.Routing/TCRT_0005-上传文件类型及文件名称校验.md",
+    "2.ToolBox/3.Routing/TCRT_0004-配置文件内容yaml格式错误时，阻止计算并报错提示用户.md",
+    "2.ToolBox/3.Routing/TCRT_0003-环境数据文件和配置文件必填校验，未上传文件阻止计算并报错提示.md",
+    "2.ToolBox/3.Routing/TCRT_0002.1-BgaEscape选择pitch值后，其他输入框自动匹配对应值.md",
+    "2.ToolBox/3.Routing/TCRT_0002-页面所有输入框除小数点外不能输入其他符号，输入数值≥0且≤99.md",
+    "2.ToolBox/3.Routing/TCRT_0001-页面输入框默认值及必填项校验.md",
+    "2.ToolBox/1.Cap-Placement/TCCP_问题记录.md",
+    "5.待办/用例整理及分享.md",
+    "2.ToolBox/1.Cap-Placement/TCCP_0006-点击导出按钮可以将排布结果导出，文件名称固定为placement.txt.md",
+    "2.ToolBox/1.Cap-Placement/TCCP_0005-文件上传成功后，在上传文件按钮下面会显示计算结果，电容总数、完成排布的数量及详情、剩余电容的数量及详情.md",
+    "2.ToolBox/1.Cap-Placement/TCCP_0004-在上传文件对话框中批量添加文件后，点击清空按钮可以将对话框中所有文件清空.md",
+    "2.ToolBox/1.Cap-Placement/TCCP_0003-上传对话框中共用复选框默认为选中状态，点击复选框可以取消公用孔.md",
+    "2.ToolBox/1.Cap-Placement/TCCP_0002-点击上传文件按钮，可以上传nets.txt，symbols.txt，vias.txt三个文件.md",
+    "2.ToolBox/1.Cap-Placement/TCCP_0001-小电容布局结果统计.md",
+    "5.待办/ToolBox反馈.md",
+    "1.PCB设计中心/4.BallMap/TCBM_0056-文件绑定项目后可以解除绑定.md",
     "7.附件/Pasted image 20240913132258.png",
     "7.附件/02f6a20034b8371414d46373a9bc2ccc.png",
     "7.附件/Pasted image 20240913132152.png",
@@ -214,34 +238,11 @@
     "7.附件/Pasted image 20240913112057.png",
     "7.附件/Pasted image 20240913111546.png",
     "7.附件/Pasted image 20240913100440.png",
-    "5.待办/PE反馈.md",
-    "5.待办/PD反馈.md",
-    "5.待办/PE-上传bom模块id不一致.md",
-    "5.待办/EaS-Manual：一期.md",
-    "5.待办/用例整理及分享.md",
-    "5.待办/EaS_Manual：二期.md",
-    "5.待办/2024-7-1待办任务.md",
-    "5.待办/ToolBox反馈.md",
-    "index.md",
     "7.附件/项目概况.canvas",
-    "Worknote/PCB/PCB工具箱测试点.md",
-    "Worknote/PCB/PCB字典.md",
     "Worknote/PCB/未命名.canvas",
-    "Worknote/关于git命令.md",
-    "Worknote/接口请求数据获取.md",
-    "Worknote/Eas-Rpc测试环境部署流程.md",
-    "Worknote/p90，p95，p99计算方式.md",
     "Worknote/架构需求.canvas",
     "Worknote/管理等级.canvas",
     "Worknote/PCB设计中心树状图.canvas",
-    "Worknote/Allegro/取消symbols的fixed状态.md",
-    "Worknote/Allegro/修改每层symbol的颜色.md",
-    "Worknote/Allegro/添加、删除层.md",
-    "Worknote/Allegro/Command导入skill.md",
-    "8.模板/1.用例模板.md",
-    "8.模板/2.记录模板.md",
-    "Worknote/skill.md",
-    "5.待办/绘图工具--Seas.md",
     "2.ToolBox/Routing-New",
     "5.待办/项目概况.canvas",
     "未命名",

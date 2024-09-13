@@ -5,7 +5,7 @@
   "showFrontmatter": false,
   "foldHeading": true,
   "foldIndent": true,
-  "showInlineTitle": false,
+  "showInlineTitle": true,
   "trashOption": "local",
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
