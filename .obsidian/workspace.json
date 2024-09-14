@@ -18,20 +18,20 @@
             }
           },
           {
-            "id": "d026c88c48bf1ffb",
+            "id": "b11de225a9546e25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.待办/PD反馈.md",
-                "mode": "source",
+                "file": "Worknote/关于git命令.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "195e175343b217a7",
+            "id": "0522344f2d2f4eb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,22 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b01ffe6a2f4c1aa8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.ToolBox/3.Routing/TCRT_0016-BgaEscape用户手动拉线后，同net的pin或via不再出线.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.ToolBox/3.Routing/TCRT_0016-BgaEscape用户手动拉线后，同net的pin或via不再出线.md",
+                "file": "Worknote/关于git命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.ToolBox/3.Routing/TCRT_0016-BgaEscape用户手动拉线后，同net的pin或via不再出线.md",
+                "file": "Worknote/关于git命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -167,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.ToolBox/3.Routing/TCRT_0016-BgaEscape用户手动拉线后，同net的pin或via不再出线.md"
+                "file": "Worknote/关于git命令.md"
               }
             }
           },
@@ -177,7 +164,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2.ToolBox/3.Routing/TCRT_0016-BgaEscape用户手动拉线后，同net的pin或via不再出线.md"
+                "file": "Worknote/关于git命令.md"
               }
             }
           }
@@ -186,7 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 281.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,34 +187,35 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "b01ffe6a2f4c1aa8",
+  "active": "b11de225a9546e25",
   "lastOpenFiles": [
-    "2.ToolBox/3.Routing/TCRT_0015-重复发送错误请求时，只弹出一个提示框.md",
-    "2.ToolBox/3.Routing/TCRT_0014-Tc、FreeConnect后端校验.md",
-    "2.ToolBox/3.Routing/TCRT_0013-Tcescape、Freeconnect配置文件前端校验.md",
-    "2.ToolBox/3.Routing/TCRT_0012-FreeConnect支持指定连接Reference，同时分配多个Reference时算法自行匹配.md",
-    "2.ToolBox/3.Routing/TCRT_0011-FreeConnect支持多Site连接，并兼容单Site连接.md",
-    "2.ToolBox/3.Routing/TCRT_0010-FreeConnect计算结果导入对应PCB板进行校验.md",
-    "2.ToolBox/3.Routing/TCRT_0009-NetConnect计算结果导入对应PCB板进行校验.md",
-    "2.ToolBox/3.Routing/TCRT_0008-TcEscape计算结果导入对应PCB板进行校验.md",
-    "2.ToolBox/3.Routing/TCRT_0007-BgaEscape计算结果导入对应PCB板进行校验.md",
-    "2.ToolBox/3.Routing/TCRT_0006-Bga环境数据文件内容前置校验.md",
-    "2.ToolBox/3.Routing/TCRT_0005-上传文件类型及文件名称校验.md",
-    "2.ToolBox/3.Routing/TCRT_0004-配置文件内容yaml格式错误时，阻止计算并报错提示用户.md",
-    "2.ToolBox/3.Routing/TCRT_0003-环境数据文件和配置文件必填校验，未上传文件阻止计算并报错提示.md",
-    "2.ToolBox/3.Routing/TCRT_0002.1-BgaEscape选择pitch值后，其他输入框自动匹配对应值.md",
-    "2.ToolBox/3.Routing/TCRT_0002-页面所有输入框除小数点外不能输入其他符号，输入数值≥0且≤99.md",
-    "2.ToolBox/3.Routing/TCRT_0001-页面输入框默认值及必填项校验.md",
-    "2.ToolBox/1.Cap-Placement/TCCP_问题记录.md",
+    "1.PCB设计中心/1.PE/TCPE_0001-用户输入账号密码可以登录pe.md",
+    "Worknote/黑盒测试技术.md",
+    "Worknote/软件测试基础.md",
     "5.待办/用例整理及分享.md",
-    "2.ToolBox/1.Cap-Placement/TCCP_0006-点击导出按钮可以将排布结果导出，文件名称固定为placement.txt.md",
-    "2.ToolBox/1.Cap-Placement/TCCP_0005-文件上传成功后，在上传文件按钮下面会显示计算结果，电容总数、完成排布的数量及详情、剩余电容的数量及详情.md",
-    "2.ToolBox/1.Cap-Placement/TCCP_0004-在上传文件对话框中批量添加文件后，点击清空按钮可以将对话框中所有文件清空.md",
-    "2.ToolBox/1.Cap-Placement/TCCP_0003-上传对话框中共用复选框默认为选中状态，点击复选框可以取消公用孔.md",
-    "2.ToolBox/1.Cap-Placement/TCCP_0002-点击上传文件按钮，可以上传nets.txt，symbols.txt，vias.txt三个文件.md",
-    "2.ToolBox/1.Cap-Placement/TCCP_0001-小电容布局结果统计.md",
+    "Worknote/架构需求.canvas",
+    "5.待办/PD反馈.md",
+    "5.待办/PE-上传bom模块id不一致.md",
+    "5.待办/PE反馈.md",
+    "5.待办/Routing第三季度目标.md",
+    "5.待办/Routing用例整理.md",
     "5.待办/ToolBox反馈.md",
-    "1.PCB设计中心/4.BallMap/TCBM_0056-文件绑定项目后可以解除绑定.md",
+    "1.PCB设计中心/1.PE/TCPE_0160-上传文件中Value值含有NC或NULL器件识别校验.md",
+    "index.md",
+    "1.PCB设计中心/1.PE/TCPE_0115-上传输出资料出现相同名称的文件，内容相同提示文件已存在，内容不同则询问是否覆盖原文件.md",
+    "1.PCB设计中心/1.PE/TCPE_0116-项目日志倒序显示，最近的操作在最上边.md",
+    "1.PCB设计中心/1.PE/TCPE_0117-项目日志只记录项目启动后的操作.md",
+    "1.PCB设计中心/1.PE/TCPE_0118-同时上传大量文件的情况被视为一条记录.md",
+    "1.PCB设计中心/1.PE/TCPE_0119-创建项目会记录是谁（用户）创建的项目.md",
+    "1.PCB设计中心/1.PE/TCPE_0120-编辑基本信息：谁（用户）将什么（字段）修改为什么（内容）.md",
+    "1.PCB设计中心/1.PE/TCPE_0121-编辑项目成员：谁（用户）将什么（文件夹名称）指派给哪些人（用户）.md",
+    "1.PCB设计中心/1.PE/TCPE_0122-上传输入资料：谁（用户）在什么路径（文件夹）上传了什么文件（文件名称）.md",
+    "1.PCB设计中心/1.PE/TCPE_0124-更该文件所有者：谁（用户）文件（系列名称）更改为谁（用户）.md",
+    "1.PCB设计中心/1.PE/TCPE_0123-上传设计文档：谁在什么路径（文件夹名）发布了什么文件（文件名），版本是什么（版本号）.md",
+    "1.PCB设计中心/1.PE/TCPE_0125-更改项目状态：谁（用户）将什么项目（项目编号）的状态修改为（项目状态名称）.md",
+    "1.PCB设计中心/1.PE/TCPE_0126-PE配置，项目成员中可以进行新建、编辑、删除操作.md",
+    "1.PCB设计中心/1.PE/TCPE_0127-PE配置，输入资料中可以进行新建、编辑、删除操作.md",
+    "1.PCB设计中心/1.PE/TCPE_0128-PE配置，设计文档中可以进行新建、编辑、删除操作.md",
     "7.附件/Pasted image 20240913132258.png",
     "7.附件/02f6a20034b8371414d46373a9bc2ccc.png",
     "7.附件/Pasted image 20240913132152.png",
@@ -240,7 +228,6 @@
     "7.附件/Pasted image 20240913100440.png",
     "7.附件/项目概况.canvas",
     "Worknote/PCB/未命名.canvas",
-    "Worknote/架构需求.canvas",
     "Worknote/管理等级.canvas",
     "Worknote/PCB设计中心树状图.canvas",
     "2.ToolBox/Routing-New",
