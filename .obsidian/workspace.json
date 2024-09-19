@@ -23,28 +23,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Worknote/关于git命令.md",
-                "mode": "preview",
+                "file": "Worknote/TestNotes/黑盒测试技术.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "0522344f2d2f4eb5",
+            "id": "aebc8527ad460afc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.待办/用例整理及分享.md",
+                "file": "Worknote/TestNotes/软件测试基础.md",
                 "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f0906def7909280",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Worknote/Skill.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Worknote/关于git命令.md",
+                "file": "Worknote/Skill.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Worknote/关于git命令.md",
+                "file": "Worknote/Skill.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Worknote/关于git命令.md"
+                "file": "Worknote/Skill.md"
               }
             }
           },
@@ -164,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Worknote/关于git命令.md"
+                "file": "Worknote/Skill.md"
               }
             }
           }
@@ -187,35 +200,37 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "b11de225a9546e25",
+  "active": "1f0906def7909280",
   "lastOpenFiles": [
-    "1.PCB设计中心/1.PE/TCPE_0001-用户输入账号密码可以登录pe.md",
-    "Worknote/黑盒测试技术.md",
-    "Worknote/软件测试基础.md",
-    "5.待办/用例整理及分享.md",
-    "Worknote/架构需求.canvas",
-    "5.待办/PD反馈.md",
-    "5.待办/PE-上传bom模块id不一致.md",
-    "5.待办/PE反馈.md",
-    "5.待办/Routing第三季度目标.md",
-    "5.待办/Routing用例整理.md",
+    "Worknote/skill.md",
+    "Worknote/Skill.md",
     "5.待办/ToolBox反馈.md",
-    "1.PCB设计中心/1.PE/TCPE_0160-上传文件中Value值含有NC或NULL器件识别校验.md",
+    "5.待办/S25-迭代延期测试.md",
+    "5.待办/Routing周会及用户反馈：2024-08-16.md",
+    "5.待办/Routing用例整理.md",
+    "5.待办/Routing第三季度目标.md",
+    "5.待办/PE反馈.md",
+    "5.待办/PE-上传bom模块id不一致.md",
+    "5.待办/PD反馈.md",
+    "5.待办/EaS_Manual：二期.md",
+    "5.待办/用例整理及分享.md",
+    "5.待办/绘图工具--Seas.md",
+    "5.待办/关于虚拟库存.md",
+    "5.待办/2024-7-1待办任务.md",
+    "5.待办/关于虚拟库存为负.md",
+    "Worknote/TestNotes/软件测试基础.md",
+    "Worknote/TestNotes/黑盒测试技术.md",
+    "Worknote/关于Docker命令.md",
+    "Worknote/关于git命令.md",
+    "Worknote/架构需求.canvas",
+    "Worknote/接口请求数据获取.md",
+    "Worknote/评论.md",
+    "Worknote/Eas-Rpc测试环境部署流程.md",
+    "Worknote/p90，p95，p99计算方式.md",
+    "Worknote/PCB设计中心树状图.canvas",
     "index.md",
-    "1.PCB设计中心/1.PE/TCPE_0115-上传输出资料出现相同名称的文件，内容相同提示文件已存在，内容不同则询问是否覆盖原文件.md",
-    "1.PCB设计中心/1.PE/TCPE_0116-项目日志倒序显示，最近的操作在最上边.md",
-    "1.PCB设计中心/1.PE/TCPE_0117-项目日志只记录项目启动后的操作.md",
-    "1.PCB设计中心/1.PE/TCPE_0118-同时上传大量文件的情况被视为一条记录.md",
-    "1.PCB设计中心/1.PE/TCPE_0119-创建项目会记录是谁（用户）创建的项目.md",
-    "1.PCB设计中心/1.PE/TCPE_0120-编辑基本信息：谁（用户）将什么（字段）修改为什么（内容）.md",
-    "1.PCB设计中心/1.PE/TCPE_0121-编辑项目成员：谁（用户）将什么（文件夹名称）指派给哪些人（用户）.md",
-    "1.PCB设计中心/1.PE/TCPE_0122-上传输入资料：谁（用户）在什么路径（文件夹）上传了什么文件（文件名称）.md",
-    "1.PCB设计中心/1.PE/TCPE_0124-更该文件所有者：谁（用户）文件（系列名称）更改为谁（用户）.md",
-    "1.PCB设计中心/1.PE/TCPE_0123-上传设计文档：谁在什么路径（文件夹名）发布了什么文件（文件名），版本是什么（版本号）.md",
-    "1.PCB设计中心/1.PE/TCPE_0125-更改项目状态：谁（用户）将什么项目（项目编号）的状态修改为（项目状态名称）.md",
-    "1.PCB设计中心/1.PE/TCPE_0126-PE配置，项目成员中可以进行新建、编辑、删除操作.md",
-    "1.PCB设计中心/1.PE/TCPE_0127-PE配置，输入资料中可以进行新建、编辑、删除操作.md",
-    "1.PCB设计中心/1.PE/TCPE_0128-PE配置，设计文档中可以进行新建、编辑、删除操作.md",
+    "Worknote/PCB/PCB工具箱测试点.md",
+    "Worknote/TestNotes",
     "7.附件/Pasted image 20240913132258.png",
     "7.附件/02f6a20034b8371414d46373a9bc2ccc.png",
     "7.附件/Pasted image 20240913132152.png",
@@ -229,7 +244,6 @@
     "7.附件/项目概况.canvas",
     "Worknote/PCB/未命名.canvas",
     "Worknote/管理等级.canvas",
-    "Worknote/PCB设计中心树状图.canvas",
     "2.ToolBox/Routing-New",
     "5.待办/项目概况.canvas",
     "未命名",
@@ -240,7 +254,6 @@
     "Worknote/Allegro",
     "Worknote",
     "9.脚本/view-seasons.js",
-    "9.脚本/view-cases.js",
     "未命名.canvas",
     "3.用例记录/流程图整理.canvas",
     "3.用例记录/串联字段.canvas",
