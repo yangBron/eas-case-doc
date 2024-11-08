@@ -29,11 +29,8 @@
               "backlog": {
                 "weight": 0
               },
-              "doing": {
-                "weight": 1
-              },
               "done": {
-                "weight": 2
+                "weight": 1
               }
             },
             "groupByField": "status"

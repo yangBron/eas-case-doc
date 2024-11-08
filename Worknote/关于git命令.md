@@ -151,6 +151,10 @@ git push -u <short_name> <your_branch_name>
 ```
 git push -u origin develop
 ```
+强制推送
+```
+git push -f <short_name> <your_branch_name>
+```
 ##### git push --set-upstream
 在使用`git push`之前，我们应该先设置好`origin`和`upstream`。下面是设置`upstream`的命令。用法：
 ```
