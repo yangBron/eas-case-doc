@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "fbf4c1be94365651",
+            "id": "e4bdea8d40b45a96",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Worknote/TestNotes/踩坑日记.md",
+                "file": "5.待办/ToolBox反馈.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -31,20 +31,45 @@
             }
           },
           {
-            "id": "b163b7e85076bfc3",
+            "id": "9c872b1a8ab403dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.迭代用例/PCB设计中心/S25_用例记录.md",
+                "file": "5.待办/PE反馈.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d1d471722d1aec9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.待办/ToolBox反馈.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b17c77b54c82471a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5.待办/2024-7-1待办任务.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +127,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Worknote/TestNotes/踩坑日记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +143,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Worknote/TestNotes/踩坑日记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,9 +176,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Worknote/TestNotes/踩坑日记.md"
-              }
+              "state": {}
             }
           },
           {
@@ -163,9 +184,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Worknote/TestNotes/踩坑日记.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -187,27 +206,40 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "fbf4c1be94365651",
+  "active": "438919e141569d3f",
   "lastOpenFiles": [
-    "3.迭代用例/PCB设计中心/S25_用例记录.md",
-    "Worknote/TestNotes/踩坑日记.md",
-    "7.附件/Pasted image 20241106164326.png",
-    "3.迭代用例/PCB设计中心/S13_用例记录.md",
-    "1.PCB设计中心/3.仓库/TCPD_0157-核对项目订单页面，高亮显示缺料的物料.md",
-    "Worknote/TestNotes/实例化缓慢原因.md",
-    "Worknote/TestNotes/自动化测试日志.md",
-    "Worknote/关于git命令.md",
-    "Worknote/TestNotes/黑盒测试技术.md",
-    "Worknote/TestNotes/软件测试基础.md",
-    "Worknote/TestNotes/自动化测试框架-Readme.md",
-    "Worknote/Allegro/Command导入skill.md",
-    "1.PCB设计中心/1.PE/TCPE_0006-点击创建项目，可以创建一个定义中或评估中的项目.md",
-    "1.PCB设计中心/1.PE/TCPE_0001-用户输入账号密码可以登录pe.md",
-    "3.迭代用例/工具箱/S0_用例记录.md",
-    "index.md",
+    "5.待办/2024-7-1待办任务.md",
+    "5.待办/ToolBox反馈.md",
+    "5.待办/PE反馈.md",
+    "5.待办/PD反馈.md",
     "Worknote/关于Docker命令.md",
+    "Worknote/关于git命令.md",
+    "Worknote/架构需求.canvas",
+    "Worknote/Eas-Rpc测试环境部署流程.md",
+    "index.md",
+    "Worknote/Python Gui/自动化测试日志.md",
+    "Worknote/Python Gui/自动化测试框架-Readme.md",
+    "Worknote/Python Gui/实例化缓慢原因.md",
+    "Worknote/Python GUI/design docs todo.md",
+    "Worknote/Python Gui/踩坑日记.md",
+    "Worknote/未命名.md",
+    "Worknote/Python Gui",
+    "5.待办/仓库操作流程概览.canvas",
+    "5.待办/关于虚拟库存.md",
+    "5.待办/关于虚拟库存为负.md",
+    "5.待办/绘图工具--Seas.md",
+    "5.待办/用例整理及分享.md",
+    "5.待办/EaS_Manual：二期.md",
+    "5.待办/EaS-Manual：一期.md",
+    "未命名.md",
+    "5.待办/仓库系统操作流程概览.canvas",
+    "1.PCB设计中心/4.BallMap/TCBM_0022-编辑组，点击组名旁的简介按钮可以给目标组添加简介，允许输入空格.md",
+    "1.PCB设计中心/4.BallMap/TCBM_0005-选择上传的文件只能是excel类型的文件，其他类型的文件不可选择.md",
+    "1.PCB设计中心/4.BallMap/TCBM_0007-在列表页的搜索输入框内输入想要查询的文件名称，列表中会显示相关得文件.md",
+    "1.PCB设计中心/4.BallMap/TCBM_0010-列表页，点击文件名称可以进入文件查看视图.md",
+    "1.PCB设计中心/3.仓库/TCPD_0002-订单号生成规则校验.md",
     "Worknote/PCB设计中心树状图.canvas",
-    "Worknote/p90，p95，p99计算方式.md",
+    "7.附件/Pasted image 20241106164326.png",
     "7.附件/Pasted image 20240919153555.png",
     "7.附件/Pasted image 20240919153443.png",
     "7.附件/Pasted image 20240919153339.png",
@@ -217,15 +249,6 @@
     "7.附件/3e9e4488681dbc1cdf83d356649d6307.png",
     "7.附件/Pasted image 20240919153027.png",
     "7.附件/Pasted image 20240919152900.png",
-    "1.PCB设计中心/3.仓库/TCPD_0159-仓库左侧菜单栏显示顺序校验.md",
-    "2.ToolBox/3.Routing/TCRT_0002.1-BgaEscape选择pitch值后，其他输入框自动匹配对应值.md",
-    "2.ToolBox/3.Routing/TCRT_0001-页面输入框默认值及必填项校验.md",
-    "2.ToolBox/3.Routing/TCRT_0007-BgaEscape计算结果导入对应PCB板进行校验.md",
-    "2.ToolBox/3.Routing/TCRT_0005-上传文件类型及文件名称校验.md",
-    "Worknote/Skill.md",
-    "Worknote/skill.md",
-    "5.待办/ToolBox反馈.md",
-    "Worknote/架构需求.canvas",
     "Worknote/TestNotes",
     "7.附件/项目概况.canvas",
     "Worknote/PCB/未命名.canvas",
@@ -239,10 +262,7 @@
     "Worknote/PCB",
     "Worknote/Allegro",
     "Worknote",
-    "9.脚本/view-seasons.js",
-    "未命名.canvas",
     "3.用例记录/流程图整理.canvas",
-    "3.用例记录/串联字段.canvas",
-    "3.用例记录/未命名.canvas"
+    "3.用例记录/串联字段.canvas"
   ]
 }

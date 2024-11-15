@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"8ff002a8719b4f26","x":-720,"y":-360,"width":250,"height":60,"type":"text","text":"初版bom"},
+		{"id":"178f9220293b0c23","x":-120,"y":-360,"width":250,"height":60,"type":"text","text":"更新bom"},
+		{"id":"d1ee031a6a378f7a","x":-120,"y":-167,"width":250,"height":60,"type":"text","text":"bom对比"},
+		{"id":"e39f90ea499984e6","x":-720,"y":210,"width":250,"height":60,"type":"text","text":"生成流转单"},
+		{"id":"aefe427f040b7f74","x":540,"y":-360,"width":250,"height":60,"type":"text","text":"终版bom"},
+		{"id":"1f326f327c3f1bb5","x":540,"y":-167,"width":250,"height":60,"type":"text","text":"bom对比"},
+		{"id":"e566792a5dab8667","x":540,"y":20,"width":250,"height":60,"type":"text","text":"导出采购需求"},
+		{"id":"4579b5911ee0cc51","x":540,"y":210,"width":250,"height":60,"type":"text","text":"更新流转单"}
+	],
+	"edges":[
+		{"id":"e117cc95b8e895f4","fromNode":"8ff002a8719b4f26","fromSide":"bottom","toNode":"e39f90ea499984e6","toSide":"top"},
+		{"id":"e11d3bc21d0204b3","fromNode":"178f9220293b0c23","fromSide":"bottom","toNode":"d1ee031a6a378f7a","toSide":"top"},
+		{"id":"31b3a5c440f53688","fromNode":"aefe427f040b7f74","fromSide":"bottom","toNode":"1f326f327c3f1bb5","toSide":"top"},
+		{"id":"5fdf938566957f0f","fromNode":"1f326f327c3f1bb5","fromSide":"bottom","toNode":"e566792a5dab8667","toSide":"top"},
+		{"id":"f0d0ee241537f710","fromNode":"e566792a5dab8667","fromSide":"bottom","toNode":"4579b5911ee0cc51","toSide":"top"},
+		{"id":"e7e6f69467fe7f15","fromNode":"8ff002a8719b4f26","fromSide":"right","toNode":"178f9220293b0c23","toSide":"left"},
+		{"id":"df3d46166ddd9068","fromNode":"178f9220293b0c23","fromSide":"right","toNode":"aefe427f040b7f74","toSide":"left"}
+	]
+}
