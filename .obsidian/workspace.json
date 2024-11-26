@@ -18,58 +18,20 @@
             }
           },
           {
-            "id": "e4bdea8d40b45a96",
+            "id": "b6798e4888a77e15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.待办/ToolBox反馈.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c872b1a8ab403dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.待办/PE反馈.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1d471722d1aec9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.待办/ToolBox反馈.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b17c77b54c82471a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.待办/2024-7-1待办任务.md",
-                "mode": "source",
+                "file": "Worknote/关于Docker命令.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 280.5
   },
   "right": {
     "id": "9a6814adbc9d10c9",
@@ -127,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Worknote/关于Docker命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Worknote/关于Docker命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -176,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Worknote/关于Docker命令.md"
+              }
             }
           },
           {
@@ -184,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Worknote/关于Docker命令.md"
+              }
             }
           }
         ],
@@ -192,7 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 450.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,49 +174,52 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "438919e141569d3f",
+  "active": "261d7bf83393fb26",
   "lastOpenFiles": [
-    "5.待办/2024-7-1待办任务.md",
-    "5.待办/ToolBox反馈.md",
-    "5.待办/PE反馈.md",
+    "Worknote/MySQL/MySQL的常用函数大全.md",
+    "7.附件/Untitled 17.webp",
+    "7.附件/Untitled 16.webp",
+    "7.附件/Untitled 15.webp",
+    "7.附件/Untitled 14.webp",
+    "7.附件/Untitled 13.webp",
+    "7.附件/Untitled 12.webp",
+    "7.附件/Untitled 11.webp",
+    "7.附件/Untitled 10.webp",
+    "7.附件/Untitled 9.webp",
+    "7.附件/Untitled 8.webp",
+    "Worknote/MySQL/MySQL常用数据类型.md",
+    "Worknote/MySQL/内连接、左连接、右连接、全连接、order by、group by.md",
     "5.待办/PD反馈.md",
-    "Worknote/关于Docker命令.md",
+    "5.待办/PE反馈.md",
+    "1.PCB设计中心/7.服务重启相关测试用例/Restart-服务重启后服务正常运行.md",
+    "2.ToolBox/1.Cap-Placement/TCCP_问题记录.md",
     "Worknote/关于git命令.md",
-    "Worknote/架构需求.canvas",
-    "Worknote/Eas-Rpc测试环境部署流程.md",
-    "index.md",
+    "Worknote/关于Docker命令.md",
     "Worknote/Python Gui/自动化测试日志.md",
-    "Worknote/Python Gui/自动化测试框架-Readme.md",
     "Worknote/Python Gui/实例化缓慢原因.md",
-    "Worknote/Python GUI/design docs todo.md",
+    "Worknote/Python Gui/自动化测试框架-Readme.md",
+    "Worknote/Python Gui/设计文档定位元素更新.md",
     "Worknote/Python Gui/踩坑日记.md",
-    "Worknote/未命名.md",
-    "Worknote/Python Gui",
+    "Worknote/MySQL/Mysql基础增删改查语句.md",
+    "Worknote/MySQL",
+    "2.ToolBox/1.Cap-Placement/TCCP_0001-小电容布局结果统计.md",
+    "1.PCB设计中心/6.Smoke/Smoke_0049-【PD】同一仓库位置，导出excel表后项目编号发生变更，不影响excel导入.md",
+    "1.PCB设计中心/6.Smoke/Smoke_0048-【PD】核对项目订单页面，导入excel表头与页面显示表头不一致，正常导入.md",
+    "1.PCB设计中心/6.Smoke/Smoke_0047-【PD】物料清单页面，点击删除按钮可以删除对应的物料信息并在cis库中减少该物料所绑定的器件的数量，减少数量与被删除的仓库库存一致.md",
+    "1.PCB设计中心/6.Smoke/Smoke_0046-【PD】同一地区仓库的物料编号具有唯一性，且绑定器件后该器件的物料编号不会再发生改变.md",
+    "1.PCB设计中心/6.Smoke/Smoke_0045-【PD】只有仓库管理员可以看到一级菜单的仓库按钮，点击仓库按钮后进入仓库模块.md",
+    "1.PCB设计中心/6.Smoke/Smoke_0044-【PD】项目订单创建成功后，自动生成入库单流转表和出库流转表.md",
+    "1.PCB设计中心/6.Smoke/Smoke_0043-【PD】项目订单页面，通过点击创建项目采购按钮可以创建项目订单.md",
+    "1.PCB设计中心/6.Smoke/Smoke_0042-【PD】物料订单页面显示的到货数与流转表中的入库数量一致.md",
+    "1.PCB设计中心/6.Smoke/Smoke_0041-【PD】每创建一张物料订单，仓库都会生成一张对应的流转表.md",
+    "1.PCB设计中心/6.Smoke",
+    "1.PCB设计中心/somke",
+    "1.PCB设计中心/7.服务重启相关测试用例",
     "5.待办/仓库操作流程概览.canvas",
-    "5.待办/关于虚拟库存.md",
-    "5.待办/关于虚拟库存为负.md",
-    "5.待办/绘图工具--Seas.md",
-    "5.待办/用例整理及分享.md",
-    "5.待办/EaS_Manual：二期.md",
-    "5.待办/EaS-Manual：一期.md",
-    "未命名.md",
-    "5.待办/仓库系统操作流程概览.canvas",
-    "1.PCB设计中心/4.BallMap/TCBM_0022-编辑组，点击组名旁的简介按钮可以给目标组添加简介，允许输入空格.md",
-    "1.PCB设计中心/4.BallMap/TCBM_0005-选择上传的文件只能是excel类型的文件，其他类型的文件不可选择.md",
-    "1.PCB设计中心/4.BallMap/TCBM_0007-在列表页的搜索输入框内输入想要查询的文件名称，列表中会显示相关得文件.md",
-    "1.PCB设计中心/4.BallMap/TCBM_0010-列表页，点击文件名称可以进入文件查看视图.md",
-    "1.PCB设计中心/3.仓库/TCPD_0002-订单号生成规则校验.md",
     "Worknote/PCB设计中心树状图.canvas",
-    "7.附件/Pasted image 20241106164326.png",
-    "7.附件/Pasted image 20240919153555.png",
-    "7.附件/Pasted image 20240919153443.png",
-    "7.附件/Pasted image 20240919153339.png",
-    "7.附件/Pasted image 20240919153255.png",
-    "7.附件/c678d6957806119d4ddebcd2a096ce4a.png",
-    "7.附件/Pasted image 20240919153203.png",
-    "7.附件/3e9e4488681dbc1cdf83d356649d6307.png",
-    "7.附件/Pasted image 20240919153027.png",
-    "7.附件/Pasted image 20240919152900.png",
+    "Worknote/架构需求.canvas",
+    "Worknote/Python Gui",
+    "5.待办/仓库系统操作流程概览.canvas",
     "Worknote/TestNotes",
     "7.附件/项目概况.canvas",
     "Worknote/PCB/未命名.canvas",
@@ -258,10 +229,6 @@
     "未命名",
     "9.脚本/package.json",
     "9.脚本/index.html",
-    "z-读书笔记",
-    "Worknote/PCB",
-    "Worknote/Allegro",
-    "Worknote",
     "3.用例记录/流程图整理.canvas",
     "3.用例记录/串联字段.canvas"
   ]

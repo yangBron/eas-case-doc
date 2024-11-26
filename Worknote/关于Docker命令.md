@@ -2,24 +2,24 @@
 ### ToolBox查看后台日志
 
 ##### 进入eas08
-```
+```ssh
 账号：ssh eas@UBS08
 密码：eas123
 ```
 ##### 查看当下目录分支
-```
+```cmd
 ls
 ```
 ##### 进入test环境
-```
+```cmd
 cd test/
 ```
 ##### 查询容器ID
-```
+```docker
 docker ps
 ```
 ##### 打印日志
-```
+```docker
 # 查看日志命令：
 	docker logs -f 容器ID
 
@@ -39,7 +39,7 @@ docker ps
 	docker logs -t --since="2021-11-30T00:00:00" --until "2021-12-30T00:00:00" 容器ID
 ```
 
-```
+```docker
 # 跟踪日志输出
 	-f
 
