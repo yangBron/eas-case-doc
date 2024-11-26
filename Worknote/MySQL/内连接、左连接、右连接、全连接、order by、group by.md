@@ -1,5 +1,5 @@
 
-## order by的用法
+## 1. order by的用法
 
 - 使用order by，一般是用来 依照查询结果的某一列(或多列)属性，进行排序(升序：ASC; 降序：DESC；默认为升序)。
 - 当排序列含控制时: 
@@ -10,25 +10,25 @@
 示例表：
 ![[Pasted image 20241125164050.png]]
 
-### ①单一列属性排序
+### 1.1 单一列属性排序
 
-##### 举例1：默认排序：
+##### 1.1.1 默认排序：
 ```sql
 select * from iyb_saas_starry_rank
 ```
 ![[Pasted image 20241125164231.png]]
 
-##### 举例2：按照id降序排序
+##### 1.1.2 按照id降序排序
 ```sql
 select * from iyb_saas_starry_rank ORDER BY id DESC
 ```
 ![[Pasted image 20241125164344.png]]
 
-### ②多个列属性排序
+### 1.2 多个列属性排序
 选择多个列属性进行排序，然后排序的顺序是，从左到右，依次排序。
 如果前面列属性有些是一样的话，再按后面的列属性排序。（前提一定要满足前面的属性排序，因为在前面的优先级高）。
 
-##### 举例1：
+##### 1.2.1 举例1：
 先按照driect_addition降序排序，再按照id升序排序。
 相同数值在降序的基础上做了升序
 ```sql
@@ -36,7 +36,7 @@ select * from iyb_saas_starry_rank ORDER BY direct_addition desc, id asc
 ```
 ![[Pasted image 20241125165143.png]]
 
-##### 举例2：
+##### 1.2.2 举例2：
 id字段为降序排列，rank_id字段为升序排列
 ```sql
 select * from iyb_saas_starry_rank ORDER BY id DESC, rank_id ASC
@@ -46,10 +46,10 @@ select * from iyb_saas_starry_rank ORDER BY id DESC, rank_id ASC
 
 ---
 
-## group by的用法
+## 2. group by的用法
 group by按照查询结果集中的某一列（或多列），进行分组，值相等的为一组。
-### 细化集函数（count，sum，avg，max，min）的作用对象
-##### count()函数
+### 2.1 细化集函数（count，sum，avg，max，min）的作用对象
+##### 2.1.1 count()函数
 有两种使用方式：
 - 基础表
 ![[Pasted image 20241126093556.png]]
@@ -68,7 +68,7 @@ select COUNT(id) from iyb_saas_starry_rank
 select COUNT(owner_org) from iyb_saas_starry_rank
 ```
 ![[Pasted image 20241126094421.png]]
-##### SUM函数
+##### 2.1.2 SUM函数
 - 基础表：
 ![[Pasted image 20241126094515.png]]
 - SUM()是一个求和得函数，返回指定列值得总和。
@@ -77,7 +77,7 @@ select COUNT(owner_org) from iyb_saas_starry_rank
 select SUM(selation_coefficient) as relation_sum from iyb_saas_starry_rank
 ```
 ![[Pasted image 20241126094802.png]]
-##### AVG函数
+##### 2.1.3 AVG函数
 - AVG()函数可以用来求平均值
 - 基础表：
 ![[Pasted image 20241126094845.png]]
@@ -91,7 +91,7 @@ select AVG(attend_train) as "平均值" from iyb_saas_starry_team_member_prepara
 select role, AVG(attend_train) as "平均值" from iyb_saas_starry_team_member_preparation GROUP BY role
 ```
 ![[Pasted image 20241126095415.png]]
-##### MAX函数
+##### 2.1.4 MAX函数
 - 基础表：
 ![[Pasted image 20241126095449.png]]
 1. 找出score最大值：
@@ -100,7 +100,7 @@ select event_name, MAX(score) from iyb_saas_starry_activity
 ```
 ![[Pasted image 20241126095620.png]]
 - MAX()函数还可以返回任意列中的最大值，包括返回字符类型的最大值。在对字符类型的数据进行比较时，按照字符的ASCII码值大小进行比较，从a-z，a的ASCII码最小，z的最大。在比较时，先比较第一个字符，如果相等，继续比较下一个字符，一直到两个字符不相等或者字符结束为止。例如，b与t比较时，t为最大值；bcd与bca比较时，bcd为最大值。
-##### MIN函数
+##### 2.1.5 MIN函数
 - 基础表：
 ![[Pasted image 20241126110632.png]]
 1. 找出score最小值：
@@ -113,7 +113,7 @@ select event_name, MIN(score) from iyb_saas_starry_activity
 select MAX(score) as max_score, MIN(score) as min_score from iyb_saas_starry_activity
 ```
 ![[Pasted image 20241126110911.png]]
-##### Group By分组
+##### 2.1.6 Group By分组
 - 基础表：
 ![[Pasted image 20241126111139.png]]
 
@@ -124,7 +124,7 @@ select preparation_status from iyb_saas_starry_team_preparation GROUP BY prepara
 ![[Pasted image 20241126111251.png]]
 
 
-## 内连接
+## 3. 内连接
 - 关键字：`inner join on`
 
 - 语句：`select * from a_table a inner join b_table b on a.a_id = b.b_id`；
@@ -142,7 +142,7 @@ select boy.hid, boy.bname, girl.gname from boy inner join girl on girl.hid = boy
 ```
 ![[Pasted image 20241126112635.png]]
 
-## 左连接
+## 4. 左连接
 - 关键字：`left join on / left outer join on`
 
 - 语句：`select * from a_table a left join b_table b on a.a_id = b.b_id`
@@ -160,7 +160,7 @@ select boy.hid, boy.bname, girl.gname from boy left join girl on girl.hid = boy.
 ```
 ![[Pasted image 20241126113334.png]]
 
-## 右连接
+## 5. 右连接
 - 关键字：`right join on / right outer join on`
 
 - 语句：`select * from a_table a right outer join b_table b on a.a_id = b.b_id`
@@ -178,7 +178,7 @@ select boy.hid, boy.bname, girl.gname from boy right join girl on girl.hid = boy
 ```
 ![[Pasted image 20241126114054.png]]
 
-## 全连接
+## 6. 全连接
 - 关键字：`union / union all`
 
 - 语句：
